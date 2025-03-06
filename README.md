@@ -1,5 +1,5 @@
  <p align="center">
-  <img src="papajeffsprimarylogo.jpg" />
+  <img src="media/papajeffsprimarylogo.jpg" />
 </p>
 
 
