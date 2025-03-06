@@ -1,3 +1,8 @@
+ <p align="center">
+  <img src="papajeffsprimarylogo.jpg" />
+</p>
+
+
 <h2>About Us</h2>
 <p>Papajeffs is a family-owned pizza restaurant dedicated to serving high-quality, delicious pizza made with love. Our mission is to bring people together through great food and an inviting atmosphere.</p>
 
