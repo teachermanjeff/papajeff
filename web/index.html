@@ -16,11 +16,19 @@
 
 /* Body styling */
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f9f9f9;
-    color: #333;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background: linear-gradient(45deg, #ff00ff, #ffcc00, #00ffff, #ff00ff);
+    background-size: 400% 400%;
+    animation: bgAnimation 10s infinite alternate;
+    color: white;
     line-height: 1.6;
+    text-shadow: 2px 2px 10px rgba(255, 255, 255, 0.8);
     padding: 20px;
+}
+
+@keyframes bgAnimation {
+    0% { background-position: 0% 50%; }
+    100% { background-position: 100% 50%; }
 }
 
 /* Center the header image */
@@ -32,39 +40,50 @@ p[align="center"] {
 img {
     max-width: 100%;
     height: auto;
+    border: 5px solid #ff00ff;
+    border-radius: 20px;
+    box-shadow: 0px 4px 10px rgba(255, 0, 255, 0.7);
 }
 
 /* Heading styles */
 h2 {
-    color: #2c3e50;
-    font-size: 2em;
+    color: white;
+    font-size: 2.5em;
     margin-bottom: 10px;
     text-align: center;
     font-weight: bold;
+    background: linear-gradient(90deg, #ff00ff, #ffff00, #00ffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: sparkle 1.5s infinite alternate;
 }
 
 /* About Us section */
 h2 + p {
-    font-size: 1.2em;
+    font-size: 1.5em;
     text-align: center;
     margin-bottom: 20px;
+    font-style: italic;
+    color: white;
 }
 
 /* List styles */
 ul {
     list-style: none;
     padding: 0;
+    text-align: center;
 }
 
 ul li {
     margin: 10px 0;
-    font-size: 1.1em;
+    font-size: 1.3em;
+    color: white;
+    text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.8);
 }
 
-/* Add bullet points */
+/* Add magical bullet points */
 ul li::before {
-    content: '✔';
-    color: #2ecc71;
+    content: '🦄';
     padding-right: 10px;
 }
 
@@ -76,33 +95,32 @@ ol {
 }
 
 ol li {
-    font-size: 1.2em;
+    font-size: 1.3em;
     margin: 10px 0;
+    color: white;
 }
 
 /* Contact and Info Section */
 a {
-    color: #3498db;
+    color: #ff66ff;
     text-decoration: none;
+    font-weight: bold;
 }
 
 a:hover {
     text-decoration: underline;
-}
-
-/* Contact section styling */
-h2 + p {
-    text-align: center;
-    font-size: 1.1em;
-    margin: 20px 0;
+    color: #ff00ff;
 }
 
 /* Footer and final statement */
 footer {
     text-align: center;
-    font-size: 1em;
+    font-size: 1.2em;
     margin-top: 40px;
-    color: #7f8c8d;
+    color: white;
+    background: linear-gradient(90deg, #ff00ff, #00ffff);
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(255, 0, 255, 0.7);
 }
 
 /* General container styling */
@@ -110,42 +128,43 @@ footer {
     width: 80%;
     max-width: 1200px;
     margin: 0 auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(255, 0, 255, 0.5);
 }
 
 /* Add some padding around sections */
 section {
     padding: 20px;
     margin-bottom: 40px;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(45deg, #ffccff, #ff99ff);
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(255, 0, 255, 0.7);
+    text-align: center;
 }
 
 /* Specific styles for the "We Need Staff!" section */
 ul li {
-    font-size: 1.2em;
-}
-
-/* Style the headings in each section */
-h2 {
-    text-align: center;
-    font-size: 2rem;
-    color: #2c3e50;
-    margin-bottom: 1.5rem;
+    font-size: 1.3em;
+    color: white;
 }
 
 /* Specific section for "Join the Papajeffs Family!" */
 h2 + p {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     text-align: center;
     margin-bottom: 20px;
     font-style: italic;
+    color: white;
 }
 
 /* Add some space between paragraphs */
 p {
     margin-bottom: 1.5rem;
+    color: white;
 }
+
 
  
 </style>
